@@ -1,5 +1,5 @@
 <?php 
-echo '<p>Hello world!</p>'
+echo '<p>Hello world!</p>';
 
 $mysqli = new mysqli(getenv('RDS_HOSTNAME'), getenv('RDS_USERNAME'), getenv('RDS_PASSWORD'), getenv('RDS_DATABASE'));
 if ($mysqli->connect_errno) {
